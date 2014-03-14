@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>MPEG-1 Video Player</title>
+
+
+<script language="javascript" type="text/javascript">
+	
+	function PlayMovies()
+	{
+		window.document.ControlJava.start1();
+	}
+
+
+</script>
+
+
+</head>
+<body>
+<applet name="ControlJava" code=MoviePlayer.MainPlayer archive="MoviePlayer.jar" width=600 height=500>
+<param name=file value="Ping1.mpg">
+<param name=repeat value="true">
+</applet>
+<form method="POST" action="--WEBBOT-SELF--">
+	<!--webbot bot="SaveResults" U-File="fpweb:///_private/form_results.csv" S-Format="TEXT/CSV" S-Label-Fields="TRUE" -->
+	<p><input type="button" value="«ö¶s" name="B3" onclick="PlayMovies();"></p>
+</form>
+</body>
+</html>
